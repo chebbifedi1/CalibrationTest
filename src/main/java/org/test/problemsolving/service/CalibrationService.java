@@ -20,7 +20,7 @@ public class CalibrationService {
                 int calibrationValue = Integer.parseInt("" + digits.charAt(0) + digits.charAt(digits.length() - 1));
                 total += calibrationValue;
             } else if (digits.length() == 1) {
-                int calibrationValue = Integer.parseInt(digits + digits); // Repeat the digit
+                int calibrationValue = Integer.parseInt(digits + digits);
                 total += calibrationValue;
             }
         }
